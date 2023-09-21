@@ -5,6 +5,9 @@
     margin-top: -10em;
     padding-bottom: 4em;
 }
+.dev-logo img{
+    filter: brightness(0) invert(1);
+}
 .join-container{
     background: #fff;
     color: #000;
@@ -15,9 +18,13 @@
     align-items: center;
     border-radius: 1em;
     flex-direction: column;
+    transition: all 0.2s;
 
     box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.3); ;
+}
+.join-container:hover{
+    background: #ececec 10%;
 }
 .join-container input{
     text-align: center;

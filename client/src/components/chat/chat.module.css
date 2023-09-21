@@ -27,3 +27,16 @@
     bottom: 0;
     height: 50px;
 }
+.message-container{
+    max-width: 250px;
+    width: fit-content;
+    background: #d3d3d3;
+    margin-top: 1em;
+    padding: 0.4em 1em;
+    border-radius: 7px;
+    align-self: start;
+}
+.message-mine{
+    align-self: end;
+    background: #87ceeb;
+}
